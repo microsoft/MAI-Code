@@ -1,0 +1,29 @@
+name: Model feedback
+description: Share feedback about a MAI-Code model.
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: dropdown
+    id: model
+    attributes:
+      label: Model
+      description: Which model is this feedback about?
+      options:
+        - MAI-Code-1-Flash
+        - General feedback
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Feedback
+      description: What happened, or what would you like to see? Include the prompt or steps to reproduce if relevant.
+    validations:
+      required: true
+  - type: input
+    id: surface
+    attributes:
+      label: Copilot surface / environment
+      description: Optional. Where did you encounter this? (e.g., VS Code, Visual Studio, github.com, CLI)
+    validations:
+      required: false
