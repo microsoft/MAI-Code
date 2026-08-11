@@ -8,6 +8,14 @@ This is the official repo for **MAI-Code** models, where we publish MAI-Code mod
 
 We use this repo to engage with the developer community. To share feedback or report an issue, [open an issue here](../../issues/new/choose).
 
+## :tada: New Release - MAI-Code-1.1-Flash
+MAI-Code-1.1-Flash is available now. Compared to the model we launched in June at Microsoft Build:
+- It costs **a quarter** of MAI-Code-1-Flash.
+- It takes **image inputs** and reason over image contents.
+- It produces **higher quality code**, with 22% improvement on Terminal-Bench 2.1 in GitHub Copilot CLI, 15% improvement on .NET tasks, and 4% more code survives through commit.
+- The output tokens streams 25% faster and uses 25% less tokens to get tasks done.
+
+Learn more about other improvements [in this blog](https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/).
 
 ## MAI-Code-1-Flash
 
